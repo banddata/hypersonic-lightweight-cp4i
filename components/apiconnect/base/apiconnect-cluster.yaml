@@ -15,7 +15,7 @@ spec:
   management:
     testAndMonitor:
       enabled: true
-      autoTestEnabled: true
+      autoTestEnabled: false
   analytics:
     storage:
       enabled: true
