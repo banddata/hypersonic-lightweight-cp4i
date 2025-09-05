@@ -18,6 +18,8 @@ spec:
       trustedCertificates:
         - secretName: letsencrypt-chain
           certificate: ca.crt
+        - certificate: ca.crt
+          secretName: apim-cpd
     authConfig:
       authType: INTEGRATION_KEYCLOAK
     storage:
