@@ -9,6 +9,9 @@ spec:
     metric: VIRTUAL_PROCESSOR_CORE
     use: CloudPakForIntegrationNonProduction
   manager:
+    apic:
+      jwks:
+        endpoint: 'https://apic-clust-ca800313-platform-api-cp4i.apps.68b007a76cf4fcd364d2eb58.eu1.techzone.ibm.com/api/cloud/oauth2/certs'
     tls: 
       ui:
         secretName: default-cert-copy
